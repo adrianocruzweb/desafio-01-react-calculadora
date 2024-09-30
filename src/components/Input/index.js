@@ -1,9 +1,11 @@
-const Button = () => {
+import {InputContainer} from './styles';
+
+const Input = () => {
     return (
-      <div className="App">
-        OI
-      </div>
+      <InputContainer>
+        <input />
+      </InputContainer>
     );
   }
   
-  export default Button;
+  export default Input;
