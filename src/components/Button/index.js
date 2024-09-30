@@ -1,9 +1,9 @@
 import {ButtonContainer} from './styles';
 
-const Button = () => {
+const Button = ({label, onClick}) => {
     return (
-      <ButtonContainer>
-        OI
+      <ButtonContainer onClick={onClick}>
+        {label}
       </ButtonContainer>
     );
   }
